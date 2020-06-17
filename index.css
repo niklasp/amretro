@@ -1,0 +1,428 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+a {
+  outline: 0;
+  color: #000;
+}
+
+.img-wrap,
+.svg-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* margin: 0 auto; */
+  width: 100vw;
+}
+
+.svg-wrap {
+  z-index: 1;
+}
+
+.texts {
+  position: relative;
+}
+
+.content-wrap {
+  position: relative;
+  display: flex;
+}
+
+.content-wrap > div {
+  z-index: 2;
+}
+
+.content-wrap #menu img {
+  filter: brightness(0);
+}
+
+.content-wrap #menu img:hover {
+  filter: brightness(255);
+}
+
+.content-wrap .sub {
+  display: none;
+}
+
+.content-wrap .sub img {
+  /* padding: 5px 0; */
+  max-width: 82%;
+}
+
+/* .content-wrap > div {
+  width: 10%;
+  height: 10%;
+  background: #f2f;
+} */
+
+#Collagen {
+  position: absolute;
+  top: 15%;
+  left: 37%;
+  width: 7.5%;
+  height: 5%;
+}
+
+#Collagen:hover > div.sub {
+  display: block;
+}
+
+#TuscheZeichnungen {
+  position: absolute;
+  top: 13%;
+  left: 45%;
+  width: 7.5%;
+  height: 8%;
+}
+
+#TuscheZeichnungen:hover > div.sub {
+  display: block;
+}
+
+#Zeichnungen {
+  position: absolute;
+  top: 15%;
+  left: 53%;
+  width: 7.5%;
+  height: 5%;
+}
+
+#Zeichnungen:hover > div.sub {
+  display: block;
+}
+
+#Skizzen {
+  position: absolute;
+  top: 14%;
+  left: 61%;
+  width: 7.5%;
+  height: 5%;
+}
+
+#Skizzen:hover > div.sub {
+  display: block;
+}
+
+.img-wrap img {
+  /* margin: 0 auto; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+svg {
+  /* margin: 0 auto; */
+}
+
+path {
+  fill: transparent;
+}
+
+path:hover {
+  fill: #FF005A99;
+  cursor: pointer;
+}
+
+path#A:hover,
+path#B:hover,
+path#C:hover,
+path#D:hover,
+path#E:hover,
+path#F:hover,
+path#G:hover,
+path#H:hover {
+  fill: transparent;
+}
+
+#ships > div,
+#largeletters > div,
+#smallletters > div {
+  position: absolute;
+  max-width: 4%;
+  pointer-events: none;
+  z-index: 2;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #ships > div,
+  #largeletters > div,
+  #smallletters > div {
+    display: none;
+  }
+}
+
+#smallletters #a_btn {
+  top: 21%;
+  left: 16.5%;
+}
+
+#smallletters #b_btn {
+  top: 15%;
+  left: 22.5%;
+}
+#smallletters #c_btn {
+  top: 24.5%;
+  left: 10%;
+  max-width: 3%;
+}
+#smallletters #d_btn {
+  top: 27%;
+  left: 11.5%;
+  max-width: 3%;
+}
+#smallletters #e_btn {
+  top: 39%;
+  left: 25.5%;
+}
+#smallletters #f_btn {
+  top: 35%;
+  left: 11%;
+  max-width: 4%;
+}
+#smallletters #g_btn {
+  top: 62%;
+  left: 36.5%;
+}
+#smallletters #h_btn {
+  top: 48%;
+  left: 15.5%;
+  max-width: 6%;
+}
+#smallletters #i_btn {
+  top: 48%;
+  left: 6.5%;
+}
+#smallletters #j_btn {
+  top: 67%;
+  left: 8.5%;
+}
+#smallletters #k_btn {
+  top: 63%;
+  left: 44%;
+}
+#smallletters #l_btn {
+  top: 6%;
+  right: 10%;
+  max-width: 8%;
+}
+#smallletters #m_btn {
+  top: 16%;
+  right: 5%;
+  max-width: 8%;
+}
+#smallletters #n_btn {
+  top: 17%;
+  right: 19%;
+  max-width: 5%;
+}
+#smallletters #o_btn {
+  top: 34%;
+  right: 26.5%;
+  max-width: 10%;
+}
+#smallletters #p_btn {
+  top: 26%;
+  right: 23%;
+  max-width: 3%;
+}
+#smallletters #q_btn {
+  top: 35%;
+  right: 19.5%;
+}
+#smallletters #r_btn {
+  top: 40%;
+  right: 22.5%;
+  max-width: 6%;
+}
+#smallletters #s_btn {
+  top: 40%;
+  right: 6.5%;
+  max-width: 6%;
+}
+#smallletters #t_btn {
+  top: 40%;
+  right: 12.5%;
+  max-width: 6%;
+}
+#smallletters #u_btn {
+  top: 53%;
+  right: 24.5%;
+  max-width: 6%;
+}
+#smallletters #v_btn {
+  top: 60%;
+  right: 27.5%;
+  max-width: 4%;
+}
+#smallletters #w_btn {
+  top: 63%;
+  right: 18.5%;
+  max-width: 8%;
+}
+#smallletters #x_btn {
+  bottom: 36%;
+  right: 9.5%;
+  max-width: 7%;
+}
+#smallletters #y_btn {
+  bottom: 32%;
+  right: 3.5%;
+  max-width: 6%;
+}
+#smallletters #z_btn {
+  bottom: 27%;
+  right: 10.5%;
+  max-width: 6%;
+}
+#largeletters #A_btn {
+  bottom: 13%;
+  left: 16.5%;
+}
+#largeletters #B_btn {
+  bottom: 14%;
+  left: 27.5%;
+}
+#largeletters #C_btn {
+  bottom: 10%;
+  left: 32.5%;
+}
+#largeletters #D_btn {
+  bottom: 9%;
+  left: 41.5%;
+}
+#largeletters #E_btn {
+  bottom: 10%;
+  left: 54.5%;
+}
+#largeletters #F_btn {
+  bottom: 4%;
+  left: 67.5%;
+}
+#largeletters #G_btn {
+  bottom: 1%;
+  left: 80.5%;
+}
+#largeletters #H_btn {
+  bottom: 1%;
+  left: 90.5%;
+}
+#ships > div {
+  max-width: 10% !important;
+}
+#ships #A_ship {
+  bottom: 2.5%;
+  left: 18%;
+}
+#ships #B_ship {
+  bottom: 7%;
+  left: 27.5%;
+}
+#ships #C_ship {
+  bottom: 5%;
+  left: 32%;
+}
+#ships #D_ship {
+  bottom: 5%;
+  left: 40%;
+}
+#ships #E_ship {
+  bottom: 4%;
+  left: 49.7%;
+}
+#ships #F_ship {
+  bottom: 1%;
+  left: 64.5%;
+}
+#ships #G_ship {
+  bottom: 0%;
+  left: 77.9%;
+}
+#ships #H_ship {
+  bottom: 0%;
+  left: 91.5%;
+}
+
+.menuleft .maillink {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 0.5%;
+  width: 6%;
+  height: 8%;
+  background-image: url('img/Button_kontakt_01.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menuleft .maillink:hover {
+  background-image: url('img/Button_kontakt_02.gif');
+}
+
+.menuleft .imprintlink {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  left: 0.5%;
+  width: 6%;
+  height: 8%;
+  background-image: url('img/Button_kontakt_01.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menuleft .imprintlink:hover {
+  background-image: url('img/Button_kontakt_02.gif');
+}
+
+.menuleft #imprintlink {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  top: 17%;
+  left: 1%;
+  width: 6%;
+  height: 8%;
+  background-image: url('img/Button_info_01.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menuleft #imprintlink:hover {
+  background-image: url('img/Button_info_02.gif');
+}
+
+.menuleft .link-2013 {
+  z-index: 3;
+  cursor: pointer;
+  position: absolute;
+  top: 26%;
+  left: 1%;
+  width: 6%;
+  height: 8%;
+  background-image: url('img/symbolbutton.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menuleft .link-2013:hover {
+  background-image: url('img/symbolbutton_2.gif');
+}
+
+#imprint {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  display: none;
+}
