@@ -49,4 +49,6 @@ function resize() {
 
 window.addEventListener('resize', resize);
 
-resize();
+imagesLoaded( document.body, function( instance ) {
+  resize();
+});
