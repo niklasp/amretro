@@ -436,4 +436,5 @@ path#H:hover {
   bottom: 2%;
   left: 2%;
   display: none;
-} */
+  z-index: 5;
+}
