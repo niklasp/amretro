@@ -37,3 +37,20 @@ imprintlink.addEventListener( 'click', function( e ) {
   }
 
 } );
+
+function resize() {
+  console.log( 'resize' );
+  const bgImg = document.querySelector('.bg-image');
+  const { width, height } = bgImg.getBoundingClientRect();
+  console.log( width, height );
+  const svg = document.querySelector('.svg-wrap svg');
+  const content = document.querySelector('.content');
+  svg.setAttribute( 'width', `${ width }px` );
+  svg.setAttribute( 'height', `${ height }px` );
+  content.style.width = `${ width }px`;
+  content.style.height = `${ height }px`;
+}
+
+window.addEventListener('resize', resize);
+
+resize();
