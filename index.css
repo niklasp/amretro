@@ -415,7 +415,7 @@ path#H:hover {
 }
 
 .menuleft .link-2013 {
-  /* z-index: 3; */
+  z-index: 3;
   cursor: pointer;
   position: absolute;
   top: 26%;
