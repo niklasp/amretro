@@ -438,3 +438,7 @@ path#H:hover {
   display: none;
   z-index: 5;
 }
+
+.read-more-link {
+  margin-left: 0;
+}
